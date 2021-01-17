@@ -13,8 +13,13 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
 </head>
+<style>
+	ul.nav-pills {
+		position: fixed;
+	}	
+</style>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy">
 	<!-- Nav Bar -->
 	<nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -30,29 +35,189 @@
 	</nav>
 	<!-- Nav Bar -->
 
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row content">
-		  <div class="col-sm-3 sidenav">
-			<h4>Questions List</h4>
+		  <div class="col-sm-3 sidenav" id="myScrollspy">
+			<h2>Questions List</h2>
 			<ul class="nav nav-pills nav-stacked">
+				<li><a href="#Quest1">Question One</a></li>
+				<li><a href="#Quest2">Question Two</a></li>
+				<li><a href="#Quest3">Question Three</a></li>
+				<li><a href="#Quest4">Question Four</a></li>
+				<li><a href="#Quest5">Question Five</a></li>
+				<li><a href="#Quest6">Question Six</a></li>
+				<li><a href="#Quest7">Question Seven</a></li>
+				<li><a href="#Quest8">Question Eight</a></li>
+				<li><a href="#Quest9">Question Nine</a></li>
+				<li><a href="#Quest10">Question Ten</a></li>
+				<li><a href="#Quest11">Question Eleven</a></li>
+				<li><a href="#Quest12">Question Twelve</a></li>
 		  </div>
-		  
+
 <!-- Try Using this as a template, you can copy and paste to add more questions just edit the fields -->
 		  <div class="col-sm-9">
-			<h4><small>Question One</small></h4>
-			<hr>
-			<h2>Are you breathing rapidly?</h2>
-			<div class="form-group">
-				<label for="sel1">Please Choose Either Yes or No</label>
-				<select class="form-control" id="sel1">
-				  <option>Yes</option>
-				  <option>No</option>
-				</select>
+			<div id="Quest1">
+				<h4><small>Question 1</small></h4>
+				<hr>
+				<h2>Are you feeling nervous?</h2>
+				<div class="form-group">
+					<label for="sel1">Please Choose Either Yes or No</label>
+					<select class="form-control" id="sel1">
+					<option>Yes</option>
+					<option>No</option>
+					</select>
+				</div>
 			</div>
 			<br><br>
 			<hr>
+			<div id="Quest2">
+			  <h4><small>Question 2</small></h4>
+			  <hr>
+			  <h2>Are you panicing?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+			  </div>
+			</div>
+			  <br><br>
+			  <hr>
+			  <div id="Quest3">
+			  <h4><small>Question 3</small></h4>
+				<hr>
+				<h2>Are you breathing rapidly?</h2>
+				<div class="form-group">
+					<label for="sel1">Please Choose Either Yes or No</label>
+					<select class="form-control" id="sel1">
+						<option>Yes</option>
+						<option>No</option>
+					</select>
+				</div>
+			  </div>
+			  <br><br>
+			  <div id="Quest4">
+			  <h4><small>Question 4</small></h4>
+			  <hr>
+			  <h2>Are you sweating?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+				</div>
+			  </div>
+			  <br><br>
+			  <div id="Quest5">
+			  <h4><small>Question 5</small></h4>
+			  <hr>
+			  <h2>Do you have trouble with concentration?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+				</div>
+			  </div>
+			  <br><br>
+			  <div id="Quest6">
+			  <h4><small>Question 6</small></h4>
+			  <hr>
+			  <h2>Are you having trouble sleeping?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+				</div>
+			  </div>
+			  <br><br>
+			  <div id="Quest7">
+			  <h4><small>Question 7</small></h4>
+			  <hr>
+			  <h2>Are you having trouble with work?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+				</div>
+			  </div>
+			  <br><br>
+			  <div id="Quest8">
+			  <h4><small>Question 8</small></h4>
+			  <hr>
+			  <h2>Do you feel hopeless?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+				</div>
+			  </div>
+			  <br><br>
+			  <div id="Quest9">
+			  <h4><small>Question 9</small></h4>
+			  <hr>
+			  <h2>Do you feel angry?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+				</div>
+			  </div>
+			  <br><br>
+			  <div id="Quest10">
+			  <h4><small>Question 10</small></h4>
+			  <hr>
+			  <h2>Do you over react?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+				</div>
+			  </div>
+			  <br><br>
+			  <div id="Quest11">
+			  <h4><small>Question 11</small></h4>
+			  <hr>
+			  <h2>Did you have a change in eating habits?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+				</div>
+			  </div>
+			  <br><br>
+			  <div id="Quest12">
+			  <h4><small>Question 12</small></h4>
+			  <hr>
+			  <h2>Do you have suicidal thoughts?</h2>
+			  <div class="form-group">
+				  <label for="sel1">Please Choose Either Yes or No</label>
+				  <select class="form-control" id="sel1">
+					  <option>Yes</option>
+					  <option>No</option>
+				  </select>
+				</div>
+			  </div>
+			  <br><br>
+			  <hr>
+		  	</div>
+			</div>
 <!-- Try Using this as a template Do not code below this-->
-		  </div>
 		</div>
 	  </div>
 </body>
