@@ -35,6 +35,10 @@ section,
 summary {
   display: block;
 }
+q{
+    margin: auto;
+
+}
 audio,
 canvas,
 progress,
@@ -220,6 +224,7 @@ th {
   a[href^="javascript:"]:after {
     content: "";
   }
+
   pre,
   blockquote {
     border: 1px solid #999;
