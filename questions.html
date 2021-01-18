@@ -15,11 +15,11 @@
 </head>
 <style>
 	ul.nav-pills {
-		position: fixed;
+		position: static;
 	}
-	SSC {
+	/*SSC {
 
-	}
+	}*/
 </style>
 
 <body data-spy="scroll" data-target="#myScrollspy">
@@ -38,11 +38,11 @@
 	</nav>
 	<!-- Nav Bar -->
 
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row content">
-		  <div class="col-sm-3 sidenav" id="myScrollspy">
+			<div class="col-sm-3 sidenav" id="myScrollspy">
 			<h2>Questions List</h2>
-			<ul class="nav nav-pills nav-stacked">
+			<ul class="nav nav-pills nav-stacked" style="text-align: center;"> 
 				<li><a href="#Quest1">Question One</a></li>
 				<li><a href="#Quest2">Question Two</a></li>
 				<li><a href="#Quest3">Question Three</a></li>
@@ -68,9 +68,7 @@
 				<li><a href="#Quest23">Question Twenty Three</a></li>
 				<li><a href="#Quest24">Question Twenty Four</a></li>
 				<li><a href="#Quest25">Question Twenty Five</a></li>
-		  </div>
-
-<!-- Try Using this as a template, you can copy and paste to add more questions just edit the fields -->
+		</div>
 		  <div class="col-sm-9">
 			<div id="Quest1">
 				<h4><small>Question 1</small></h4>
@@ -414,7 +412,6 @@
 			  <br><br>
 		  	</div>
 			</div>
-<!-- Try Using this as a template Do not code below this-->
 		</div>
 	  </div>
 </body>
